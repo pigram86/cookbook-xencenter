@@ -19,9 +19,9 @@
 
 # install xencenter 6.2
 windows_package "xencenter" do 
-  source node[:xc][:url]
+  source node['xc']['url']
   action :install
-  not_if {::File.exists?(node[:xc][:file])}
+  not_if {::File.exists?(node['xc']['file'])}
   not_if {reboot_pending?}
 end
 

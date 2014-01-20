@@ -17,5 +17,5 @@
 # limitations under the License.
 #
 
-default[:xc][:url] = "http://downloadns.citrix.com.edgesuite.net/akdlm/8160/XenServer-6.2.0-XenCenter.msi"
-default[:xc][:file] = "C:/Program Files (x86)/Citrix/XenCenter/XenCenter.exe"
+default['xc']['url'] = "http://downloadns.citrix.com.edgesuite.net/akdlm/8160/XenServer-6.2.0-XenCenter.msi"
+default['xc']['file'] = "C:/Program Files (x86)/Citrix/XenCenter/XenCenter.exe"
